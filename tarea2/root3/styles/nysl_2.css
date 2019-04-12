@@ -1,0 +1,90 @@
+html, body{
+  height:100%;
+  margin:0px;
+}
+header {
+  /*border: 1px black dashed;*/
+  box-sizing: border-box;
+}
+
+.title{
+  width: auto;
+  font-size: 20px;
+  color: black;
+  position:relative;
+  height:20%;
+}
+
+.menu {
+  background-image: url(design2_image1.jpg);
+  background-size: cover;
+  width: auto;
+  height:300px;
+}
+
+.menu ul {
+  list-style-type: none;
+  float: right;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.menu a  {
+  background-color: #0000FF;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: inherit;
+}
+
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #0000FF;
+  color: white;
+}
+
+header .subtitle{
+  background-color: #000000;
+  text-align: center;
+  color: white;
+  height:40px;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+article {
+  display:flex;
+}
+  
+.logo img {
+  display:flex;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.space {
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  display:block;
+  width:calc(100% - 200px);
+}
+  
